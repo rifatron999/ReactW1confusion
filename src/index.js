@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import 'bootstrap/dist/css/bootstrap.min.css'; //for bootstrap
+import './index.css'; //my custom css file should be imported after bootstrap so for i can user them into my custom css file 
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
