@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
-import {Navbar, NavbarBrand} from 'reactstrap'; //importing components
+import {Navbar, NavbarBrand} from 'reactstrap'; //importing components ?Navbar, NavbarBrand
 import Menu from './components/MenuComponent';
 import './App.css';
 

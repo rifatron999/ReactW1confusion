@@ -1,10 +1,10 @@
 import React,{ Component} from 'react'; //this will allow to create react components
-import {Media} from 'reactstrap';
+import {Media} from 'reactstrap'; //?Media
 
 class Menu extends Component {
 
     constructor(props){//?what is props
-        super(props);
+        super(props);//?super()
 
         this.state = {//state stores properties related to this components
             dishes: [
@@ -44,7 +44,7 @@ class Menu extends Component {
         }
     }
     render(){//any component should implement this
-        const menu = this.state.dishes.map((dish) => {
+        const menu = this.state.dishes.map( (dish) => {
             return (
                 <div key={dish.id} className="col-12 mt-5">
                     <Media tag="li">
